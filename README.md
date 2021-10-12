@@ -1,14 +1,13 @@
-# Next.js Headless WordPress Getting Started Example
+# Faustjs-storybook Example
 
-## Setup
+## Storybook
 
-See the [setup steps](https://github.com/wpengine/faustjs#quick-start).
+Run `npm run storybook`
 
-## Run it
+Hero Component is working. I did not check styles.
 
-```bash
-npm install
-npm run dev
-```
+### Problem
 
-[http://localhost:3000]()
+Cannot load data from `import { client, MenuLocationEnum } from 'client';`
+
+See Component `faustjs-storybook/src/components/tests/HeaderWrapper.tsx`
