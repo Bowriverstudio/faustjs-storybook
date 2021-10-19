@@ -1,11 +1,10 @@
-// import "../../faust.config";
-// import { HeadlessProvider } from "@faustjs/next";
-// import { client } from "client";
-// import Header from "components/Header";
+import "../../faust.config";
+import { HeadlessProvider } from "@faustjs/next";
+import { client } from "client";
+import Header from "components/Header";
 
 /**
- * Quiz.
- * @param  obj - An object of Props.
+ * Header Wrapper.
  */
 const HeaderWrapper: React.FC = () => {
   return (

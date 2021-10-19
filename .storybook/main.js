@@ -90,6 +90,15 @@ module.exports = {
       include: path.resolve(__dirname, "../"),
     });
 
+    // https://github.com/graphql/graphql-js/issues/2721#issuecomment-752699621
+    // (probably because the origin is strict EcmaScript Module, e. g. a module with javascript mimetype, a '*.mjs' file, or a '*.js' file where the package.json contains '"type": "module"').
+    config.module.rules.push({
+      test: /\.m?jsx?$/,
+      resolve: {
+        fullySpecified: false,
+      },
+    });
+
     return {
       ...config,
       resolve: {
