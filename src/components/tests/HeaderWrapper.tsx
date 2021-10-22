@@ -9,9 +9,12 @@ import Header from "components/Header";
 const HeaderWrapper: React.FC = () => {
   return (
     <>
-      {/* <HeadlessProvider client={client} pageProps={null}>
+      <HeadlessProvider
+        client={client}
+        pageProps={{ __AUTH_CLIENT_CACHE_PROP: "", __CLIENT_CACHE_PROP: "" }}
+      >
         <Header />
-      </HeadlessProvider> */}
+      </HeadlessProvider>
     </>
   );
 };
