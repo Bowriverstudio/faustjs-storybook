@@ -31,6 +31,7 @@
     "@babel/core": "^7.16.0",
     "@gqty/cli": "^2.3.0",
     "@storybook/addon-actions": "^6.3.12",
+    "@storybook/addon-console": "^1.2.3",
     "@storybook/addon-essentials": "^6.3.12",
     "@storybook/addon-links": "^6.3.12",
     "@storybook/builder-webpack5": "^6.3.12",
