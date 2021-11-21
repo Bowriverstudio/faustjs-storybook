@@ -1,5 +1,11 @@
 # Faustjs-storybook Example
 
+## Install
+
+```bash
+npm install --legacy-peer-deps
+```
+
 ## Storybook
 
 Run `npm run storybook`

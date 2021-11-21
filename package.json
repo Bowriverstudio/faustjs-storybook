@@ -15,30 +15,31 @@
     "build-storybook": "build-storybook -s public"
   },
   "dependencies": {
-    "@faustjs/core": "^0.12.3",
-    "@faustjs/next": "^0.12.3",
+    "@faustjs/core": "^0.13.1",
+    "@faustjs/next": "^0.13.1",
+    "@storybook/addon-docs": "^6.3.12",
     "next": "^11.1.2",
     "normalize.css": "^8.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "sass": "^1.42.1"
+    "sass": "^1.43.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.15.8",
-    "@gqty/cli": "^2.0.1",
-    "@storybook/addon-actions": "^6.3.10",
-    "@storybook/addon-essentials": "^6.3.10",
-    "@storybook/addon-links": "^6.3.10",
-    "@storybook/builder-webpack5": "^6.3.10",
-    "@storybook/manager-webpack5": "^6.3.10",
-    "@storybook/react": "^6.3.10",
-    "@types/react": "^17.0.24",
-    "babel-loader": "^8.2.2",
+    "@babel/core": "^7.16.0",
+    "@gqty/cli": "^2.3.0",
+    "@storybook/addon-actions": "^6.3.12",
+    "@storybook/addon-essentials": "^6.3.12",
+    "@storybook/addon-links": "^6.3.12",
+    "@storybook/builder-webpack5": "^6.3.12",
+    "@storybook/manager-webpack5": "^6.3.12",
+    "@storybook/react": "^6.3.12",
+    "@types/react": "^17.0.36",
+    "babel-loader": "^8.2.3",
     "dotenv-flow": "3.2.0",
     "eslint": "^7.32.0",
     "eslint-config-next": "^11.1.2",
     "rimraf": "^3.0.2",
-    "sass-loader": "^12.2.0",
-    "typescript": "^4.4.3"
+    "sass-loader": "^12.3.0",
+    "typescript": "^4.5.2"
   }
 }

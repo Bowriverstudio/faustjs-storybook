@@ -1,5 +1,5 @@
 import "../../faust.config";
-import { HeadlessProvider } from "@faustjs/next";
+import { FaustProvider } from "@faustjs/next";
 import { client } from "client";
 import Header from "components/Header";
 
@@ -9,12 +9,12 @@ import Header from "components/Header";
 const HeaderWrapper: React.FC = () => {
   return (
     <>
-      <HeadlessProvider
+      <FaustProvider
         client={client}
         pageProps={{ __AUTH_CLIENT_CACHE_PROP: "", __CLIENT_CACHE_PROP: "" }}
       >
         <Header />
-      </HeadlessProvider>
+      </FaustProvider>
     </>
   );
 };
