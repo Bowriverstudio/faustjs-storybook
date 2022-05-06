@@ -32,4 +32,4 @@ gh secret set NEXT_PUBLIC_WORDPRESS_URL --body "https://headlessfw.wpengine.com"
 
 ## Sample URL
 
-https://627532cca2f142004ab39772-iqklgqfxla.chromatic.com/?path=/story/components-header--default-header
+https://www.chromatic.com/library?appId=627532cca2f142004ab39772

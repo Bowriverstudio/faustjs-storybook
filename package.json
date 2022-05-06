@@ -12,8 +12,7 @@
     "wpe-build": "next build",
     "storybook": "start-storybook -p 6006 -s public",
     "storybook-no-cache": "start-storybook -p 6006 -s public --no-manager-cache",
-    "build-storybook": "build-storybook -s public",
-    "chromatic": "npx chromatic --project-token=6e60bcb69146"
+    "build-storybook": "build-storybook -s public"
   },
   "dependencies": {
     "@faustjs/core": "^0.15.6",

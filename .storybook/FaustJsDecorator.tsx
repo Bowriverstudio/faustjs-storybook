@@ -19,7 +19,6 @@ export const FaustJsDecorator = (
       >
         <Story {...context} />
       </FaustProvider>
-      s
     </>
   );
 };
