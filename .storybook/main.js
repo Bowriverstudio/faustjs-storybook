@@ -11,6 +11,10 @@ module.exports = {
   core: {
     builder: "webpack5",
   },
+  env: (config) => ({
+    ...config,
+    ...process.env,
+  }),
   stories: ["../src/**/**/*.stories.@(js|mdx)"],
   addons: [
     // "@storybook/preset-typescript",
